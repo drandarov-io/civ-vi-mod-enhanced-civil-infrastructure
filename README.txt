@@ -35,7 +35,7 @@ Full list of changes below (if you have balance suggestions, please post them in
 [quote]
 [list]
 [*] Gets base yield of 20 Gold (was 10)
-[*] Can be constructed multiple times
+[*] Can be constructed multiple times (this can be disabled with the following [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2490307327]add-on[/url])
 [*] Buildable on hills
 [*] Provides 4 Production as destination for domestic trade routes
 [*] Note that upon completion other Panama Canals in progress will be interrupted, but can be resumed
@@ -73,6 +73,11 @@ Full list of changes below (if you have balance suggestions, please post them in
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1142306094] Strategic Forts [/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2480453102] auto build roads with units [/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2436512618] Nere's Traps and Barricades [/url]
+[/list]
+
+[h1]Add-ons[/h1]
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2490307327] Enhanced Civil Infrastructure - Only 1 Panama Canal [/url]
 [/list]
 
 [h1]Notes[/h1]
