@@ -1,28 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="2b2bb21f-9706-438b-a064-173b7bf3dac5" version="5">
-  <Properties>
-    <Name>Enhanced Civil Infrastructure</Name>
-    <Description>Improves several Civil Infrastructure gameplay elements. Since it changes "Port Lime - Bridge District" that mod is required.</Description>
-    <Created>1621080276</Created>
-    <Teaser>Changes Prereq Techs and improves Canals, Mountain Tunnels, Roads, (and Bridges)</Teaser>
-    <Author>DahakaMVl</Author>
-    <AffectsSavedGames>0</AffectsSavedGames>
-    <CompatibleVersions>2.0</CompatibleVersions>
-  </Properties>
-  <Dependencies>
-    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
-    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
-  </Dependencies>
-  <FrontEndActions />
-  <Files>
-    <File>EnhancedCivilInfrastructure.xml</File>
-  </Files>
-  <InGameActions>
-    <UpdateDatabase id="enhancedCivilInfrastructure">
-      <Properties>
-        <LoadOrder>1000</LoadOrder>
-      </Properties>
-      <File>EnhancedCivilInfrastructure.xml</File>
-    </UpdateDatabase>
-  </InGameActions>
+    <Properties>
+        <Name>Enhanced Civil Infrastructure</Name>
+        <Description>Improves several Civil Infrastructure gameplay elements incl. Roads, Canals, Mountain Tunnels, Military Engineers (and Bridges if installed).</Description>
+        <Created>1621080276</Created>
+        <Teaser>Changes Prereq Techs and improves Canals, Mountain Tunnels, Roads, (and Bridges)</Teaser>
+        <Author>DahakaMVl</Author>
+        <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <Dependencies>
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+    </Dependencies>
+    <ActionCriteria>
+        <Criteria id="ECI_Bridge">
+            <!-- Port Lime - Bridge District -->
+            <ModInUse>ccf5951c-1090-4241-8c14-13ab6de30300</ModInUse>
+        </Criteria>
+    </ActionCriteria>
+    <InGameActions>
+        <UpdateText id="enhancedCivilInfrastructure_text">
+            <Properties>
+                <LoadOrder>1000</LoadOrder>
+            </Properties>
+            <File>EnhancedCivilInfrastructure_Text.sql</File>
+        </UpdateText>
+        <UpdateDatabase id="enhancedCivilInfrastructure_core">
+            <Properties>
+                <LoadOrder>1000</LoadOrder>
+            </Properties>
+            <File>EnhancedCivilInfrastructure_Core.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="enhancedCivilInfrastructure_bridge" criteria="CS_CSE">
+            <Properties>
+                <LoadOrder>1000</LoadOrder>
+            </Properties>
+            <File>EnhancedCivilInfrastructure_Bridge.sql</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <Files>
+        <File>EnhancedCivilInfrastructure_Core.sql</File>
+        <File>EnhancedCivilInfrastructure_Bridge.sql</File>
+        <File>EnhancedCivilInfrastructure_Text.sql</File>
+    </Files>
 </Mod>
