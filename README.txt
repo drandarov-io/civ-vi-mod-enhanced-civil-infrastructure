@@ -1,6 +1,6 @@
 Improves several Civil Infrastructure gameplay elements incl. Roads, Canals, Mountain Tunnels, Military Engineers (and Bridges if installed).
 
-Since it changes parts of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2331527458] "Port Lime - Bridge District" [/url], that mod is highly recommended, however it is not required.
+Since it changes parts of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2331527458]"Port Lime - Bridge District"[/url], that mod is highly recommended, however it is not required.
 
 Full list of changes below (if you have balance suggestions, please post them in the comments):
 
@@ -69,7 +69,7 @@ Full list of changes below (if you have balance suggestions, please post them in
 
 [h1]Recommended Mods[/h1]
 [list]
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2331527458] "Port Lime - Bridge District" [/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2331527458] Port Lime - Bridge District [/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1142306094] Strategic Forts [/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2480453102] auto build roads with units [/url]
 [*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2436512618] Nere's Traps and Barricades [/url]

@@ -32,7 +32,7 @@
             </Properties>
             <File>EnhancedCivilInfrastructure_Core.sql</File>
         </UpdateDatabase>
-        <UpdateDatabase id="enhancedCivilInfrastructure_bridge" criteria="CS_CSE">
+        <UpdateDatabase id="enhancedCivilInfrastructure_bridge" criteria="ECI_Bridge">
             <Properties>
                 <LoadOrder>1000</LoadOrder>
             </Properties>
