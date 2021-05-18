@@ -88,6 +88,7 @@ Usage of the Bridge Icon by Lime in the mod thumbnail was approved.
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2484412297]Enhanced Camera[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2306442154]Configure Diplomatic Victory Points[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2490898327]Configure Minimal City Distance[/url]
 [/list]
 
 GitHub:
