@@ -2,7 +2,7 @@ Improves several Civil Infrastructure gameplay elements incl. Roads, Canals, Mou
 
 Since it changes parts of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2331527458]"Port Lime - Bridge District"[/url], that mod is highly recommended, however it is not required.
 
-[h2]Some design ideas behind this mod:[h2]
+[h2]Some design ideas behind this mod:[/h2]
 [quote]
 [list]
 [*] Improve unit mobility with roads
