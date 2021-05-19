@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="2b2bb21f-9706-438b-a064-173b7bf3dac5" version="5">
     <Properties>
-        <Name>Enhanced Civil Infrastructure</Name>
+        <Name>[COLOR_Civ6Green]Enhanced Civil Infrastructure[ENDCOLOR]</Name>
         <Description>Improves several Civil Infrastructure gameplay elements incl. Roads, Canals, Mountain Tunnels, Military Engineers (and Bridges if installed).</Description>
         <Created>1621080276</Created>
         <Teaser>Changes Prereq Techs and improves Canals, Mountain Tunnels, Roads, (and Bridges)</Teaser>
@@ -17,6 +17,18 @@
         <Criteria id="ECI_Bridge">
             <!-- Port Lime - Bridge District -->
             <ModInUse>ccf5951c-1090-4241-8c14-13ab6de30300</ModInUse>
+        </Criteria>
+        <Criteria id="ECI_UC_Aqueduct">
+            <!-- District Expansion: Aqueduct -->
+            <ModInUse>1373373a-f34d-4041-a0f8-49e2004e19a1</ModInUse>
+        </Criteria>
+        <Criteria id="ECI_GotLakes">
+            <!-- Got Lakes -->
+            <ConfigurationValueMatches>
+                <Group>Map</Group>
+                <ConfigurationId>MAP_SCRIPT</ConfigurationId>
+                <Value>GotLakes.lua</Value>
+            </ConfigurationValueMatches>
         </Criteria>
     </ActionCriteria>
     <InGameActions>
@@ -38,10 +50,24 @@
             </Properties>
             <File>EnhancedCivilInfrastructure_Bridge.sql</File>
         </UpdateDatabase>
+        <UpdateDatabase id="enhancedCivilInfrastructure_uc_aqueduct" criteria="ECI_UC_Aqueduct">
+            <Properties>
+                <LoadOrder>1001</LoadOrder>
+            </Properties>
+            <File>EnhancedCivilInfrastructure_UC_Aqueduct.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="enhancedCivilInfrastructure_gotlakes" criteria="ECI_GotLakes">
+            <Properties>
+                <LoadOrder>1001</LoadOrder>
+            </Properties>
+            <File>EnhancedCivilInfrastructure_GotLakes.sql</File>
+        </UpdateDatabase>
     </InGameActions>
     <Files>
         <File>EnhancedCivilInfrastructure_Core.sql</File>
         <File>EnhancedCivilInfrastructure_Bridge.sql</File>
         <File>EnhancedCivilInfrastructure_Text.sql</File>
+        <File>EnhancedCivilInfrastructure_GotLakes.sql</File>
+        <File>EnhancedCivilInfrastructure_UC_Aqueduct.sql</File>
     </Files>
 </Mod>

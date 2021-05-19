@@ -2,8 +2,18 @@ Improves several Civil Infrastructure gameplay elements incl. Roads, Canals, Mou
 
 Since it changes parts of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2331527458]"Port Lime - Bridge District"[/url], that mod is highly recommended, however it is not required.
 
-Full list of changes below (if you have balance suggestions, please post them in the comments):
+[h2]Some design ideas behind this mod:[h2]
+[quote]
+[list]
+[*] Improve unit mobility with roads
+[*] Improve strategic naval mobility with more canals
+[*] Increase the maintanance of Civil Infrastructure and add domestic trade route yields to convert gold into food, production and culture
+[*] You can now build cities focused on providing food or production to your other cities through trade routes
+[*] Make Military Engineer more useful by making things they improve more useful ("Enhanced Military Infrastructure" may come at some point)
+[/list]
+[/quote]
 
+Full list of changes below (if you have balance suggestions, please post them in the comments):
 
 [h1]Changes[/h1]
 [h2]Roads[/h2]
@@ -22,12 +32,17 @@ Full list of changes below (if you have balance suggestions, please post them in
 [quote]
 [list]
 [*] Buildable at Engineering Tech (was Steam Power)
-[*] Buildable on hills (applied same workaround as other "Canal on Hills" mods since this seems to be somewhat hardcoded)
-[*] Provide major adjecency (+2) to Commercial Hubs and Harbors
-[*] Provides 1 Housing, because improved infrastructure results in better transport of goods and better mobility e.g. in the outskirts
-[*] Provides 2 Food as destination for domestic trade routes
+[*] Buildable on hills
+[list]
+[*] Applied by same workaround as other "Canal on Hills" mods since this seems to be somewhat hardcoded
+[*] This workaround is not compatible with GotLakes and possibly other map scripts, so this part will be disabled if that map script is selected.
+[/list]
+[*] Provide major adjacency (+2) to Commercial Hubs and Harbors (incl. unique variants)
+[*] Provides 2 Food, 1 Production as destination for domestic trade routes
 [*] Provides 2 Gold as destination and origin for international trade routes
-[*] Base cost is 55 (was 81)
+[*] Provides 1 Housing, because improved infrastructure results in better transport of goods and better mobility e.g. in the outskirts
+[*] Base cost is 60 (was 81)
+[*] Maintenance is 3 (was 0)
 [/list]
 [/quote]
 
@@ -46,9 +61,28 @@ Full list of changes below (if you have balance suggestions, please post them in
 [quote]
 [list]
 [*] Buildable at Construction Tech (was Steel)
+[*] Buildable on lakes (was only Ocean Coast)
 [*] Provides 1 Housing, because improved infrastructure results in better transport of goods and better mobility e.g. in the outskirts
-[*] Provides 2 Culture as destination for domestic trade routes
+[*] Provides 2 Culture, 1 Production as destination for domestic trade routes
+[*] Provides 1 Amenity
+[*] Maintenance is 3 (was 0)
 [*] Base cost is 60 (was 81)
+[/list]
+[/quote]
+
+[h2]Aqueduct[/h2]
+[quote]
+[list]
+[*] Provides 2 Production, 1 Food as destination for domestic trade routes
+[*] Maintenance is 2 (was 0)
+[/list]
+[/quote]
+
+[h2]Dams[/h2]
+[quote]
+[list]
+[*] Provides 2 Production, 1 Food, 1 Culture as destination for domestic trade routes
+[*] Maintenance is 3 (was 0)
 [/list]
 [/quote]
 
